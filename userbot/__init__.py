@@ -59,14 +59,14 @@ if CONFIG_CHECK:
     quit(1)
 
 # Telegram App KEY and HASH
-API_KEY = os.environ.get("API_KEY", "1471216")
-API_HASH = os.environ.get("API_HASH", "333f03804cc37f5565836e8c4f04981b")
+API_KEY = os.environ.get("API_KEY", None)
+API_HASH = os.environ.get("API_HASH", None)
 
 # Userbot Session String
-STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOGgBu1aRdfIKasTFvc46OtdvRQTfTXAYSG3eJyTRunfcag8woxoNR7oMM9TUQDGoWAxST72YQO8cKl50j0RMZZPslxKaOgV-_kefy9lg95Xme_pMM9lYMT7PKX7KcxrpTOsYywwD2ew_MZKuvINv9H4bV7e8FNn22UqntCnvx9zPnhFNuK-FQYoVusKclMnhvwC2xAbNL6D2r4dQa8EOzQwje8aAqbP_pW15SIOyskL0yQXjDEG6tiCG4uXgNLWc5FeX2p_Dix4-fpS0udpDtBMhoY--Qa4AQM4q53F9vFGjLvFqWBA5lKOHgowImetpOGgnFyQis9qb_Z5dkpnfHFJfhy4=")
+STRING_SESSION = os.environ.get("STRING_SESSION", None)
 
 # Logging channel/group ID configuration.
-BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID", "1001262434895"))
+BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID", None))
 
 # Userbot logging feature switch.
 BOTLOG = sb(os.environ.get("BOTLOG", "False"))
@@ -77,8 +77,8 @@ PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
 
 # Heroku Credentials for updater.
 HEROKU_MEMEZ = sb(os.environ.get("HEROKU_MEMEZ", "False"))
-HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", "yippieubot")
-HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "88530201-2790-49dc-81b9-e3d6917a4182")
+HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
+HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
 
 # JustWatch Country
 WATCH_COUNTRY = os.environ.get("WATCH_COUNTRY","IN")
@@ -159,7 +159,7 @@ BOT_VER = os.environ.get("BOT_VER", "3.4")
 
 # Default .alive logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/7714b2fd458c5e678d1a6.jpg"    
+    "ALIVE_LOGO") or "https://ibb.co/ctHH9gt"    
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
