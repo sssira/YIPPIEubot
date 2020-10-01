@@ -59,14 +59,14 @@ if CONFIG_CHECK:
     quit(1)
 
 # Telegram App KEY and HASH
-API_KEY = os.environ.get("API_KEY", None)
-API_HASH = os.environ.get("API_HASH", None")
+API_KEY = os.environ.get("API_KEY", "1471216")
+API_HASH = os.environ.get("API_HASH", "333f03804cc37f5565836e8c4f04981b")
 
 # Userbot Session String
-STRING_SESSION = os.environ.get("STRING_SESSION", None)
+STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOGgBu1aRdfIKasTFvc46OtdvRQTfTXAYSG3eJyTRunfcag8woxoNR7oMM9TUQDGoWAxST72YQO8cKl50j0RMZZPslxKaOgV-_kefy9lg95Xme_pMM9lYMT7PKX7KcxrpTOsYywwD2ew_MZKuvINv9H4bV7e8FNn22UqntCnvx9zPnhFNuK-FQYoVusKclMnhvwC2xAbNL6D2r4dQa8EOzQwje8aAqbP_pW15SIOyskL0yQXjDEG6tiCG4uXgNLWc5FeX2p_Dix4-fpS0udpDtBMhoY--Qa4AQM4q53F9vFGjLvFqWBA5lKOHgowImetpOGgnFyQis9qb_Z5dkpnfHFJfhy4=")
 
 # Logging channel/group ID configuration.
-BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID", None))
+BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID", "1001262434895"))
 
 # Userbot logging feature switch.
 BOTLOG = sb(os.environ.get("BOTLOG", "False"))
@@ -77,8 +77,8 @@ PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
 
 # Heroku Credentials for updater.
 HEROKU_MEMEZ = sb(os.environ.get("HEROKU_MEMEZ", "False"))
-HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
-HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
+HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", "yippieubot")
+HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", "88530201-2790-49dc-81b9-e3d6917a4182")
 
 # JustWatch Country
 WATCH_COUNTRY = os.environ.get("WATCH_COUNTRY","IN")
@@ -136,10 +136,10 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "YIPPIEubot")
 
 # Time & Date - Country and Time Zone
-COUNTRY = str(os.environ.get("COUNTRY", ""))
+COUNTRY = str(os.environ.get("COUNTRY", "Indonesia"))
 TZ_NUMBER = int(os.environ.get("TZ_NUMBER", 1))
 
 # Clean Welcome
